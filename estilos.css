@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: rgb(255, 179, 226);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+p {
+    font-size: xx-large;
+    padding-top: 10%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.gif-container {
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.gif {
+    height: 150px;
+    width: 150px;
+}
+
+.botones {
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 25%;
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+    z-index: 2;
+}
